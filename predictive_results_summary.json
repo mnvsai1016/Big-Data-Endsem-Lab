@@ -1,0 +1,198 @@
+{
+  "student_roll": "CS23I1016",
+  "student_name": "M Naga Venkata Sai",
+  "course": "CS 5010 Analytics & Systems of Big Data Practice Endsem",
+  "dataset_rows": 17125,
+  "arm_grid": [
+    {
+      "min_support": 0.15,
+      "min_confidence": 0.7,
+      "num_frequent_itemsets": 180,
+      "num_rules": 534
+    },
+    {
+      "min_support": 0.15,
+      "min_confidence": 0.8,
+      "num_frequent_itemsets": 180,
+      "num_rules": 301
+    },
+    {
+      "min_support": 0.15,
+      "min_confidence": 0.85,
+      "num_frequent_itemsets": 180,
+      "num_rules": 183
+    },
+    {
+      "min_support": 0.2,
+      "min_confidence": 0.7,
+      "num_frequent_itemsets": 109,
+      "num_rules": 248
+    },
+    {
+      "min_support": 0.2,
+      "min_confidence": 0.8,
+      "num_frequent_itemsets": 109,
+      "num_rules": 130
+    },
+    {
+      "min_support": 0.2,
+      "min_confidence": 0.85,
+      "num_frequent_itemsets": 109,
+      "num_rules": 82
+    },
+    {
+      "min_support": 0.25,
+      "min_confidence": 0.7,
+      "num_frequent_itemsets": 61,
+      "num_rules": 102
+    },
+    {
+      "min_support": 0.25,
+      "min_confidence": 0.8,
+      "num_frequent_itemsets": 61,
+      "num_rules": 54
+    },
+    {
+      "min_support": 0.25,
+      "min_confidence": 0.85,
+      "num_frequent_itemsets": 61,
+      "num_rules": 31
+    }
+  ],
+  "top_rules": [
+    {
+      "antecedents_str": "Role_Defender, High_Wage",
+      "consequents_str": "High_Defending, High_Physical",
+      "support": 0.1588905109489051,
+      "confidence": 0.8273031316509578,
+      "lift": 2.3032947698785
+    },
+    {
+      "antecedents_str": "High_Wage, High_Passing, High_Pace",
+      "consequents_str": "High_Dribbling, High_Shooting, High_Value",
+      "support": 0.1767007299270073,
+      "confidence": 0.7197906755470981,
+      "lift": 2.2997043505119503
+    },
+    {
+      "antecedents_str": "High_Wage, High_Shooting, High_Passing, High_Pace",
+      "consequents_str": "High_Dribbling, High_Value",
+      "support": 0.1767007299270073,
+      "confidence": 0.9078907890789079,
+      "lift": 2.297226619825103
+    },
+    {
+      "antecedents_str": "High_Dribbling, High_Defending, High_Wage",
+      "consequents_str": "High_Passing, High_Value",
+      "support": 0.15737226277372263,
+      "confidence": 0.8341070875889817,
+      "lift": 2.2738115050877603
+    },
+    {
+      "antecedents_str": "Role_Midfielder, High_Value",
+      "consequents_str": "High_Dribbling, High_Passing, High_Wage",
+      "support": 0.16998540145985402,
+      "confidence": 0.7814765100671142,
+      "lift": 2.2655807067715137
+    },
+    {
+      "antecedents_str": "High_Dribbling, High_Passing, High_Pace, High_Wage",
+      "consequents_str": "High_Shooting, High_Value",
+      "support": 0.1767007299270073,
+      "confidence": 0.7546134663341647,
+      "lift": 2.2592230089112886
+    },
+    {
+      "antecedents_str": "High_Dribbling, Role_Midfielder, High_Wage",
+      "consequents_str": "High_Passing, High_Value",
+      "support": 0.16998540145985402,
+      "confidence": 0.8269886363636364,
+      "lift": 2.2544063033631443
+    },
+    {
+      "antecedents_str": "Role_Midfielder, High_Value",
+      "consequents_str": "High_Dribbling, High_Shooting, High_Passing",
+      "support": 0.16291970802919709,
+      "confidence": 0.7489932885906041,
+      "lift": 2.2451444192392955
+    },
+    {
+      "antecedents_str": "High_Shooting, Role_Midfielder, High_Value",
+      "consequents_str": "High_Dribbling, High_Passing",
+      "support": 0.16291970802919709,
+      "confidence": 0.9403437815975734,
+      "lift": 2.222689752913519
+    },
+    {
+      "antecedents_str": "High_Wage, High_Passing, High_Pace",
+      "consequents_str": "High_Dribbling, High_Value",
+      "support": 0.21477372262773722,
+      "confidence": 0.8748810656517603,
+      "lift": 2.213702460000945
+    }
+  ],
+  "cfi_compression": [
+    {
+      "min_support": 0.15,
+      "Frequent_Itemsets (FIs)": 3103,
+      "Closed_Frequent_Itemsets (CFIs)": 837,
+      "Lossless_Compression_%": 73.03
+    },
+    {
+      "min_support": 0.2,
+      "Frequent_Itemsets (FIs)": 1847,
+      "Closed_Frequent_Itemsets (CFIs)": 617,
+      "Lossless_Compression_%": 66.59
+    },
+    {
+      "min_support": 0.25,
+      "Frequent_Itemsets (FIs)": 982,
+      "Closed_Frequent_Itemsets (CFIs)": 391,
+      "Lossless_Compression_%": 60.18
+    }
+  ],
+  "decision_tree_metrics": {
+    "accuracy": 0.8479,
+    "balanced_accuracy": 0.8617,
+    "macro_precision": 0.8791,
+    "macro_recall": 0.8617,
+    "macro_f1": 0.8689,
+    "optimal_ccp_alpha": 0.000397,
+    "rules_text": "|--- Sliding Tackle <= 52.50\n|   |--- GK Diving <= 38.50\n|   |   |--- Heading Accuracy <= 55.50\n|   |   |   |--- Long Passing <= 42.50\n|   |   |   |   |--- class: 1\n|   |   |   |--- Long Passing >  42.50\n|   |   |   |   |--- class: 3\n|   |   |--- Heading Accuracy >  55.50\n|   |   |   |--- Long Passing <= 59.50\n|   |   |   |   |--- class: 1\n|   |   |   |--- Long Passing >  59.50\n|   |   |   |   |--- class: 3\n|   |--- GK Diving >  38.50\n|   |   |--- class: 2\n|--- Sliding Tackle >  52.50\n|   |--- Vision <= 59.50\n|   |   |--- Vision <= 51.50\n|   |   |   |--- DEF <= 48.50\n|   |   |   |   |--- class: 3\n|   |   |   |--- DEF >  48.50\n|   |   |   |   |--- class: 0\n|   |   |--- Vision >  51.50\n|   |   |   |--- DEF <= 56.50\n|   |   |   |   |--- class: 3\n|   |   |   |--- DEF >  56.50\n|   |   |   |   |--- class: 0\n|   |--- Vision >  59.50\n|   |   |--- Sliding Tackle <= 68.50\n|   |   |   |--- Long Passing <= 65.50\n|   |   |   |   |--- class: 3\n|   |   |   |--- Long Passing >  65.50\n|   |   |   |   |--- class: 3\n|   |   |--- Sliding Tackle >  68.50\n|   |   |   |--- Vision <= 69.50\n|   |   |   |   |--- class: 0\n|   |   |   |--- Vision >  69.50\n|   |   |   |   |--- class: 3\n"
+  },
+  "kmeans_metrics": {
+    "k_range": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "inertias": [
+      443818.4,
+      337638.8,
+      278547.8,
+      252683.9,
+      235638.8,
+      221895.8,
+      210597.3
+    ],
+    "silhouettes": [
+      0.5194,
+      0.26,
+      0.2543,
+      0.234,
+      0.2057,
+      0.202,
+      0.1964
+    ],
+    "archetypes": {
+      "0": "Cluster 0: Technical Creative Playmakers",
+      "1": "Cluster 1: Explosive Clinical Finishers",
+      "2": "Cluster 2: Goalkeeping / Stopper Core",
+      "3": "Cluster 3: Ball-Winning Defensive Specialists"
+    }
+  }
+}

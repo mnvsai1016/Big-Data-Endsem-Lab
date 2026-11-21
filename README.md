@@ -45,13 +45,26 @@ This repository contains the publication-grade laboratory implementation and com
 ## 📂 Repository File Structure
 
 ```text
-├── Endsem_Lab.ipynb             # Master Jupyter Notebook (24 cells, 5 PySpark cells, complete outputs)
-├── CS23I1016_ENDSEM_ASBD.pdf    # Official Academic Submission Report (30 Pages, PDF)
-├── CS23I1016_ENDSEM_ASBD.docx   # Academic Submission Report (Word Source)
-├── datasets/                    # Tabular Dataset Storage
-│   ├── fifa21_male2.csv         # Raw FIFA 21 dataset (17,125 rows, 107 raw attributes)
-│   └── fifa21_preprocessed.csv  # Cleaned, metricated, transformed dataset (53 attributes)
-└── README.md                    # Project documentation & academic report synthesis
+Big-Data-Endsem-Lab/
+├── Endsem_Lab.ipynb                      # Master Jupyter Notebook (24 cells, 5 PySpark cells)
+├── CS23I1016_Endsem_Lab.ipynb            # Fully Executed Notebook (with all 50 cell outputs & embedded plots)
+├── CS23I1016_ENDSEM_ASBD.pdf             # Official Academic Submission Report (30 Pages, PDF)
+├── CS23I1016_ENDSEM_ASBD_Report.pdf      # Submission Report PDF
+├── CS23I1016_ENDSEM_ASBD.docx            # Academic Submission Report (Word Source)
+├── Big_Data_Practice_Endsem_Question.docx # Official Examination Question Document
+├── datasets/                             # Tabular Dataset Storage
+│   ├── fifa21_male2.csv                  # Raw FIFA 21 dataset (17,125 rows, 107 raw attributes)
+│   └── fifa21_preprocessed.csv           # Cleaned, metricated, transformed dataset (53 attributes)
+├── report_images/                        # High-Resolution Diagnostic Plots & PySpark Visual Telemetry (200-300 DPI)
+│   ├── fig1_doughnut_tiers.png ... fig18_bubble_multi_attribute.png
+│   ├── fig15_pyspark_scaling_curves.png  # PySpark Multi-Core Scaling Benchmarks (1x to 10x)
+│   ├── fig19_spark_ui_dag_dashboard.png  # Live Apache Spark Web UI Telemetry & 20-Core Timeline
+│   └── fig20_spark_architecture_catalyst.png # Multi-Core Cluster & Catalyst Pipeline Infographic
+├── pyspark_benchmark_results.json        # Empirical PySpark 20-Core Scaling Benchmark Data
+├── predictive_results_summary.json       # ARM, Decision Tree & K-Means Evaluation Metrics
+├── preprocessing_and_visualization_summary.json # Statistical Moments & Preprocessing Summary
+├── requirements.txt                      # Complete Python & PySpark Environment Dependencies
+└── README.md                             # Comprehensive Project Documentation & Academic Synthesis
 ```
 
 ---

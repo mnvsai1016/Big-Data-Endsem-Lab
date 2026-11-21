@@ -1,0 +1,18 @@
+# Ignore all Python source files
+*.py
+
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Temporary and local test files
+temp_pyspark_tx.txt
+ipynb files.zip
+*.tmp
+*.log
+
+# Word intermediate lock files & duplicate updated files
+~$*.docx
+*_UPDATED.docx
+*_UPDATED.pdf
