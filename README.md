@@ -13,9 +13,7 @@
 - **Roll Number:** CS23I1016
 - **Department:** Computer Science & Engineering
 - **Institution:** Indian Institute of Information Technology Design & Manufacturing (IIITDM) Kancheepuram
-- **Academic Session:** November 2025
 - **Examination:** Endsem Examination — Analytics & Systems of Big Data Practice (25CS5004 / CS 5010)
-- **Official Certified Score:** **50.0 / 50.0 Marks (100.0% | Grade S / Outstanding Distinction)**
 
 ---
 
