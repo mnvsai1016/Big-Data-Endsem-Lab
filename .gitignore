@@ -1,0 +1,28 @@
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Temporary and local test files
+temp_pyspark_tx.txt
+ipynb files.zip
+*.tmp
+*.log
+
+# Build & scratch scripts
+build_*.py
+generate_*.py
+sections_*.py
+reorganize_*.py
+update_*.py
+test_*.py
+diag_*.py
+inspect_*.py
+check_*.py
+append_*.py
+create_*.py
+
+# Word intermediate lock files & duplicate updated files
+~$*.docx
+*_UPDATED.docx
+*_UPDATED.pdf

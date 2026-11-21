@@ -1,0 +1,65 @@
+{
+  "cores": 20,
+  "spark_version": "3.5.5",
+  "java_home": "C:\\Users\\Mnvsai\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\jdk4py\\java-runtime",
+  "fpm_benchmarks": [
+    {
+      "scale": 1,
+      "rows": 17125,
+      "single_node_apriori_sec": 0.018,
+      "pyspark_fpgrowth_sec": 3.345,
+      "speedup": 0.01
+    },
+    {
+      "scale": 2,
+      "rows": 34250,
+      "single_node_apriori_sec": 0.0,
+      "pyspark_fpgrowth_sec": 1.312,
+      "speedup": 0.0
+    },
+    {
+      "scale": 5,
+      "rows": 85625,
+      "single_node_apriori_sec": 0.034,
+      "pyspark_fpgrowth_sec": 1.432,
+      "speedup": 0.02
+    },
+    {
+      "scale": 10,
+      "rows": 171250,
+      "single_node_apriori_sec": 0.048,
+      "pyspark_fpgrowth_sec": 1.648,
+      "speedup": 0.03
+    }
+  ],
+  "kmeans_benchmarks": [
+    {
+      "scale": 1,
+      "rows": 17125,
+      "sklearn_kmeans_sec": 1.607,
+      "pyspark_kmeans_sec": 5.428,
+      "speedup": 0.3
+    },
+    {
+      "scale": 2,
+      "rows": 34250,
+      "sklearn_kmeans_sec": 0.148,
+      "pyspark_kmeans_sec": 3.693,
+      "speedup": 0.04
+    },
+    {
+      "scale": 5,
+      "rows": 85625,
+      "sklearn_kmeans_sec": 0.298,
+      "pyspark_kmeans_sec": 4.787,
+      "speedup": 0.06
+    },
+    {
+      "scale": 10,
+      "rows": 171250,
+      "sklearn_kmeans_sec": 0.554,
+      "pyspark_kmeans_sec": 8.53,
+      "speedup": 0.06
+    }
+  ]
+}
